@@ -11,7 +11,7 @@ const answer = await inquirer.prompt({
 });
 
 if (answer.userNumber === randomNumber) {
-  console.log(chalk.blue("Congragulations! You guessed the right number."));
+  console.log(chalk.green("Congragulations! You guessed the right number."));
 } else {
   console.log(chalk.blue("Better luck next time.Try again."));
 }
